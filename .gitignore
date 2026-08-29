@@ -79,3 +79,4 @@ starvation_dump.jsonl
 /*.png
 !/catalog_identity.json
 !/disc_probe.json
+/RECEIPT.md
