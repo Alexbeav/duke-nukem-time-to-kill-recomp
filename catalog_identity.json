@@ -1,0 +1,47 @@
+{
+  "format_version": 1,
+  "game": {
+    "name": "Duke Nukem Time to Kill",
+    "id": "SLUS-00583",
+    "boot_exe": "SLUS_005.83"
+  },
+  "marketing": {
+    "description": "",
+    "publisher": "",
+    "year": "",
+    "region": "USA",
+    "players": 1
+  },
+  "rom_identity": {
+    "cue_name": "Duke Nukem - Time to Kill (USA).cue",
+    "bin_name": "Duke Nukem - Time to Kill (USA).bin",
+    "track_counts": [
+      1
+    ],
+    "require_cue": true,
+    "data_track": {
+      "size": 449772960,
+      "md5": "82d6ef06544ac72aab26ba8b94345f8e",
+      "sha1": "a782825520939da0560ef031daa78db8ef720957"
+    },
+    "disc_fp": "00771f8dea1899f99c908e23a0611a858c81d0b66efdda0d784a6f8fdda8f292"
+  },
+  "exe": {
+    "load_address": "0x80010000",
+    "entry_pc": "0x800AB6FC",
+    "text_size": "0x000BB000",
+    "stack_base": "0x801FFFF0"
+  },
+  "seeds": {
+    "count": 1587,
+    "source": "boot_exe_jal"
+  },
+  "warnings": [
+    "cue has only 1 TRACK \u2014 Track-01-only dumps fail multi-track netplay/catalog gates; prefer a full Redump cue."
+  ],
+  "notes": [
+    "entry_pc/load_address/text_size/stack_base taken from PS-X EXE header.",
+    "seeds are first-pass boot-EXE JAL targets (+ entry); expect to grow as overlays / runtime paths are discovered.",
+    "required_disc_fp is psxrecomp-toc-v1 (matches runtime DiscIdentity)."
+  ]
+}
