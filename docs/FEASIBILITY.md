@@ -35,3 +35,12 @@ The release workflow now builds Linux in a pinned Ubuntu 20.04 container.
 The package gate rejects a setup host or emitter that needs a glibc version
 newer than 2.31. This keeps the release compatible with the qualified Rocky
 Linux 9 host. Windows and both macOS builds keep their existing runners.
+
+## 2026-09-04 Linux setup instruction correction
+
+The `v0.3.5` Linux launcher describes a portable toolchain that its POSIX host
+does not use. The local correction makes the first-run page and setup guide
+name the required native tools. It does not change game code or the current
+graduation state. A rebuilt exact package must still pass setup on Bazzite
+before publication. A local Ubuntu 20.04 package passes the source, setup-text,
+and glibc-floor audits; this does not replace the Bazzite execution gate.
