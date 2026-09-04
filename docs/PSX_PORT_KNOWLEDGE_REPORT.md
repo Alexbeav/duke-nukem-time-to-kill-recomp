@@ -57,3 +57,11 @@ exact-package canary remains open. The exact-title Linux setup host also links
 after all 163 build steps with the pinned rewind dependency. A local package
 from the pinned Ubuntu 20.04 route passes its instruction, source-identity, and
 glibc-floor audits. It has not run on Bazzite.
+
+## 2026-09-04 v0.3.6 POSIX setup-copy candidate
+
+This candidate pins PSXRecomp 08ec704a974b1f3a16335b4afeb340b9eff19926 and recomp-ui be8ac1d03ee19d55394b5a5f2d9d1506edd56659.
+Linux and macOS packages use native CMake, Ninja, Python, C, and C++ tools.
+Windows keeps the portable toolchain route. This change does not change game
+code or the graduation state. Build-only CI and every exact-package release
+gate must pass before publication.

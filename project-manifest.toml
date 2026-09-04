@@ -18,8 +18,8 @@ stack_base = "0x801FFFF0"
 
 [framework]
 repository = "https://github.com/Alexbeav/psxrecomp.git"
-commit = "c5206ac2f8498576706606c3e73ddaa2cc630dea"
-tree = "2540170855ce614bc03c3df59c936c01baa7894a"
+commit = "08ec704a974b1f3a16335b4afeb340b9eff19926"
+tree = "5ffbc4786d0826bc506b3bdf4e7d7aa506d2abfc"
 recomp_ui_commit = "be8ac1d03ee19d55394b5a5f2d9d1506edd56659"
 license = "PolyForm Noncommercial 1.0.0"
 
@@ -28,9 +28,9 @@ repository = "https://github.com/TechnicallyComputers/retcomm-studio"
 commit = "249422969c1c59ac2a1f8aa2299e876a7133998e"
 
 [release]
-version = "0.3.5"
+version = "0.3.6"
 platform = "multi-platform"
 supported_platforms = ["windows-x64", "linux-x64", "macos-arm64", "macos-x64"]
 graduation_state = "bootstrap_verified"
 private_gameplay_confirmed = true
-public_package_status = "v0.3.5_three_platform_candidate"
+public_package_status = "v0.3.6_three_platform_candidate"
